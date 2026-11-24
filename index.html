@@ -126,6 +126,11 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .st{position:absolute;right:16px;bottom:16px;background:var(--k);color:var(--y);border-radius:14px;padding:8px 14px;font-weight:700;font-size:.85rem;box-shadow:0 8px 20px rgba(0,0,0,.2)}
 .st small{display:block;font-weight:500;color:#fff;font-size:.7rem}
 .proj .meta p{font-size:.82rem;margin-top:2px}
+.proj .img{aspect-ratio:auto!important;min-height:250px;display:flex!important;align-items:flex-end;justify-content:center;padding:62px 18px 0!important}
+.proj .img .dev{margin-top:0!important;width:100%;max-width:430px}
+.proj .img .dev.ph2{width:min(62%,230px)}
+.proj .img .dev img{width:100%;height:auto}
+@media(max-width:560px){.proj .img{min-height:230px;padding:58px 14px 0!important}.st{right:10px;bottom:10px;font-size:.78rem;padding:6px 10px}.proj .meta{padding:16px 18px}.big b{font-size:1.7rem}}
 /* testimonials */
 .testi{background:var(--y)}
 .testi .top{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:36px}
